@@ -83,8 +83,8 @@
     padding: 0;
   }
   .nav-container{
-    padding: 0px 10px;
-    justify-content: space-between;
+    padding: 0px;
+    justify-content: space-around;
   }
   .hamburger {
     display: block;

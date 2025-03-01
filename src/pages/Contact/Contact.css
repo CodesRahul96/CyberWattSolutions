@@ -176,6 +176,13 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+  .contact-content-section{
+    padding: 0;
+  }
+  .contact-container{
+    padding: 0;
+  }
   .contact-hero {
     height: 300px;
   }
