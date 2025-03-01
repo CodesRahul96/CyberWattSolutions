@@ -162,7 +162,7 @@ const Contact = () => {
           <div className="map-container">
             <h2>Find Us Here</h2>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.241266814773!2d-74.00862368459395!3d40.71277597933041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjAiTiA3NMKwMDAnMzAuNSJX!5e0!3m2!1sen!2sus!4v1630000000000!5m2!1sen!2sus"
+             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11386.081397958806!2d73.85528718012304!3d18.50080374363642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1740818936677!5m2!1sen!2sin"
               width="100%"
               height="400"
               style={{ border: 0, borderRadius: "10px" }}
