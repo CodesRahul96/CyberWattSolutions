@@ -1,0 +1,26 @@
+:root{
+  --Brown: #443627;
+  --Black: #252525;
+  --Gray: #333;
+  --White: #ffffff;
+  --Orange: #D98324;
+  --Beige: #EFDCAB;
+  --Yellow: oklch(0.905 0.182 98.111);
+  --Yellow-light: oklch(0.945 0.129 101.54);
+  --Yellow-bold: oklch(0.795 0.184 86.047);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: var(--Black);
+  color: #ffffff;
+}
+
+a{
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}

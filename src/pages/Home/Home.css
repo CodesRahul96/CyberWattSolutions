@@ -1,0 +1,20 @@
+.home-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-about-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

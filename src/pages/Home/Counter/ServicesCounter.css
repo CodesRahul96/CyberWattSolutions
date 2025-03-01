@@ -1,0 +1,73 @@
+.services-counter {
+  width: 100%;
+    /* background-color: #f8f9fa; */
+    /* padding: 4rem 0; */
+    background-image: url(../../../assets/backgrounds//counter-bg.png);
+    background-position: -20px 50%;
+    background-repeat: no-repeat;
+  }
+  
+  .counter-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+  }
+  
+  .counter-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    min-width: 200px;
+    flex: 1;
+  }
+
+  .counter-icon{
+    height: 50px;
+    width: 50px;
+  }
+  
+  .counter-item h3 {
+    font-size: 2.5rem;
+    color: var(--Yellow);
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .counter-item p {
+    font-size: 1.1rem;
+    color: var(--White);
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .counter-container {
+      flex-direction: column;
+      padding: 0 1rem;
+    }
+  
+    .counter-item {
+      padding: 1.5rem;
+      min-width: 100%;
+    }
+  
+    .counter-item h3 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .counter-item h3 {
+      font-size: 1.8rem;
+    }
+  
+    .counter-item p {
+      font-size: 1rem;
+    }
+  }
